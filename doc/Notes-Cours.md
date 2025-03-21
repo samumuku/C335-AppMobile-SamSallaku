@@ -78,3 +78,8 @@ Une grille ====== <Grid WidthRequest ="100" HeightRequest="100">
 ```
 
 ## Questions
+
+1. Que veut dire l'acronyme MAUI - Multi-platform Application User Interface
+2. Comment ce fait-il que C# fonctionne sur Android - Runtime qui transforme la machine en android (compilation)
+3. Comment tester une application MAUI Android développée sur Windows alors que nous n'avons pas d'appareil mobile ? - Emulateur
+4. Citez 3 alternatives MAUI pour le développement mobile - Natif spécifique, Natif liée, Web React, Kotlin, WebAssembly, etc
