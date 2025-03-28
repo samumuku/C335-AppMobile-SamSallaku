@@ -1,3 +1,5 @@
+# Samuel Sallaku C335 APP MOBILE
+
 # 21.03.2025
 
 ## Identification du module
@@ -83,3 +85,61 @@ Une grille ====== <Grid WidthRequest ="100" HeightRequest="100">
 2. Comment ce fait-il que C# fonctionne sur Android - Runtime qui transforme la machine en android (compilation)
 3. Comment tester une application MAUI Android développée sur Windows alors que nous n'avons pas d'appareil mobile ? - Emulateur
 4. Citez 3 alternatives MAUI pour le développement mobile - Natif spécifique, Natif liée, Web React, Kotlin, WebAssembly, etc
+
+# 28.03.2025
+
+- Revue de ce qui a été fait la semaine passée
+- Maquettes pour projet
+
+## Présentation 2
+
+#### Shell
+
+##### 4 types de navigation
+
+- Content page
+- Flyout Page ( page qui apparait lors d un clic ou swipe )
+- Navigation Page ( navigation normale, comme par exemple les boutons )
+- Tabbed Page ( Menu tout en bas (footer) )
+
+##### 2 types d'app
+
+- App => AppShell => Main
+
+- Basique
+
+  - Pas de menu de navigation intégrée
+  - Code de base : (InitializeComponent(), MainPage = new NavigationPage (new MainPage()))
+
+- Shell (par défaut pour une nouvelle app)
+  - Menu initial Flyout **OU** tab
+
+##### Navigation
+
+- 1er niveau (root)
+
+  - Shell => défini par Flyout ou Tab, puis un NavigationPage
+  - Basique => défini directement par NavigationPage
+
+- 2ème niveau et N ème niveau (détail)
+  - Stacker les pages
+
+PUSH/POP = PUSH sert à aller dans une autre page, et POP sert à revenir
+
+##### Layout (XAML)
+
+Mise en page
+
+- Tailles différentes
+
+- 4 Layouts
+  - StackLayout (mettre les éléments empilés)
+  - AbsoluteLayout (Valeurs absolues, il fat définir dans quels pixels il sera placé)
+  - Grid (Une grille, définir le nombre d'éléments)
+  - FlexLayout (Permet de définir les colonnes et les lignes comme avec Flexbox CSS, permet aussi de stacker les différents Layouts et les mélanger)
+
+On peut choisir et il va normalement régler la taille par lui même
+
+## Questions
+
+-
