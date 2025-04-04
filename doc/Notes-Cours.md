@@ -126,6 +126,8 @@ Une grille ====== <Grid WidthRequest ="100" HeightRequest="100">
 
 PUSH/POP = PUSH sert à aller dans une autre page, et POP sert à revenir
 
+- Certaines navigations ne fonctionnent pas ensemble
+
 ##### Layout (XAML)
 
 Mise en page
@@ -143,3 +145,12 @@ On peut choisir et il va normalement régler la taille par lui même
 ## Questions
 
 -
+-
+-
+-
+-
+
+# 04.04.2025
+
+- Revue de ce qu'on a fait la semaine passée
+- Continuer sur l'exercice de Crane
