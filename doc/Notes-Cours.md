@@ -144,13 +144,49 @@ On peut choisir et il va normalement régler la taille par lui même
 
 ## Questions
 
--
--
--
--
--
+- Citez le type d'application qui permet d'avoir les 2 options de navigation principales, citez les deux options et illustrez leur rendu.
+  - Tabulation et Flyout
+  - Type d'application: Shell
+- Avec un navigation standard, sans AppShell, comment naviguer entre les pages?
+  - Content Page/Navigation Page
+  - Push et Pop
+- Citez les 4 Layout de base et décrire leur comportement de base.
+  - Grid=(fait une grille et met les éléments dedans)
+  - Flex=(responsive)
+  - Stack=(empiler les éléments, horizontalement ou verticalement)
+  - Absolute=(Fixé à une position exacte, le point en haut à gauche de l'élément)
 
 # 04.04.2025
 
 - Revue de ce qu'on a fait la semaine passée
 - Continuer sur l'exercice de Crane
+- Continuer sur figma
+- Débuter avec une navigation
+
+## Présentation 3
+
+#### Interactions User
+
+- Code Behind -> code de base lors de la création
+- Razor
+- MVVM (Model View ViewModel)
+  - Model = C# (Informations, Services, Base de données)
+  - View = Composants graphiques
+  - ViewModel = Pilote de l'application, C#
+
+##### Exercice
+
+- Appeler le nom de la variable + Command, en utilisant "Binding"
+- Ajouter un bouton et un label:
+
+```
+<Entry Text="0"/>
+<Button Text="Counter : 0 [click to inc 5]" />
+```
+
+## Questions
+
+-
+-
+-
+-
