@@ -190,3 +190,10 @@ On peut choisir et il va normalement régler la taille par lui même
 -
 -
 -
+
+# 11.04.2025
+
+- Revue de ce qu'on a fait la semaine passée
+- Continuer sur exercice 2 de MVVM
+- Faire l'exercice 3 de MVVM
+- Pour le débogage, il faut un (Trace.WriteLine($"Texte {variable}.. "))
