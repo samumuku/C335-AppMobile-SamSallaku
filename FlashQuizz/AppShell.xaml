@@ -6,9 +6,10 @@
     xmlns:local="clr-namespace:FlashQuizz"
     Shell.FlyoutBehavior="Flyout"
     Title="FlashQuizz"
-    Shell.FlyoutBackgroundColor="White"
-    Shell.ForegroundColor="Black"
-    Shell.TitleColor="Black">
+    Shell.FlyoutBackgroundColor="CadetBlue"
+    Shell.BackgroundColor="CadetBlue"
+    Shell.ForegroundColor="White"
+    Shell.TitleColor="White">
 
     <ShellContent
         Title="Home"

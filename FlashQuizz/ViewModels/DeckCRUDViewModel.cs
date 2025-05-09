@@ -17,27 +17,34 @@ namespace FlashQuizz.ViewModels
 
         public ObservableCollection<Deck> Decks { get; } = new ObservableCollection<Deck>();
 
-
         [ObservableProperty]
         private string deckName;
+        partial void OnDeckNameChanged(string value)
+        {
+            AddDeckCommand.NotifyCanExecuteChanged();
+        }
         [ObservableProperty]
         private string description;
-        [ObservableProperty]
-        private string imagePath;
+
+        partial void OnDescriptionChanged(string value)
+        {
+            AddDeckCommand.NotifyCanExecuteChanged();
+        }
 
         [RelayCommand(CanExecute = nameof(AddDeckCanExecute))]
         private async Task AddDeck(string definition)
         {
-            if (string.IsNullOrWhiteSpace(deckName) || string.IsNullOrWhiteSpace(description))
+            await App.Current.MainPage.DisplayAlert("Deck Created", $"Name: {DeckName}", "OK");
+
+            if (string.IsNullOrWhiteSpace(DeckName) || string.IsNullOrWhiteSpace(Description))
             {
                 await App.Current.MainPage.DisplayAlert("Validation","Name and description are needed", "OK");
                 return;
             }
             var deck = new Deck
             {
-                Name = deckName,
-                Description = description,
-                ImagePath = imagePath,
+                Name = DeckName,
+                Description = Description,
             };
 
             using (var dbContext = new FlashquizzContext())
@@ -48,25 +55,14 @@ namespace FlashQuizz.ViewModels
 
             Decks.Add(deck);
 
-            deckName = "";
-            description = "";
-            imagePath = null;
+            DeckName = string.Empty;
+            Description = string.Empty;
         }
 
         private bool AddDeckCanExecute()
         {
-            return !string.IsNullOrEmpty(deckName) && !string.IsNullOrEmpty(description);
+            return !string.IsNullOrEmpty(DeckName) && !string.IsNullOrEmpty(Description);
         }
 
-        [RelayCommand]
-        private async Task PickImage()
-        {
-            var fileResult = await FilePicker.PickAsync(new PickOptions { PickerTitle = "Select an image", FileTypes = FilePickerFileType.Images });
-
-            if (fileResult != null)
-            {
-                imagePath = fileResult.FullPath;
-            }
-        }
     }
 }

@@ -7,6 +7,7 @@
             InitializeComponent();
 
             MainPage = new AppShell();
+            Routing.RegisterRoute("deck/{deckId}", typeof(DeckPage));
         }
     }
 }

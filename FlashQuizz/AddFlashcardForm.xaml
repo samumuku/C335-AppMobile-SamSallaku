@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FlashQuizz.ViewModels"
              x:Class="FlashQuizz.AddFlashcardForm"
-             BackgroundColor="White">
+             BackgroundColor="CadetBlue">
 
     <ContentPage.BindingContext>
         <local:DeckCRUDViewModel />
@@ -13,7 +13,7 @@
         <VerticalStackLayout
             Padding="20"
             Spacing="15">
-            
+
             <Label Text="Deck Name" FontAttributes="Bold" />
             <Entry Text="{Binding DeckName}"
                    Placeholder="Enter deck name" />
@@ -23,18 +23,6 @@
                     Placeholder="Enter description"
                     AutoSize="TextChanges"
                     HeightRequest="100" />
-
-            <Label Text="Deck Image" FontAttributes="Bold" />
-            <ImageButton Source="camera.png"
-                         WidthRequest="100"
-                         HeightRequest="100"
-                         BackgroundColor="Transparent"
-                         Command="{Binding PickImage}" />
-
-            <Image Source="{Binding ImagePath}"
-                   HeightRequest="150"
-                   Aspect="AspectFit"
-                   IsVisible="{Binding ImagePath, Converter={StaticResource StringToVisibilityConverter}}" />
 
             <Button Text="Create Deck"
                     Command="{Binding AddDeckCommand}"
