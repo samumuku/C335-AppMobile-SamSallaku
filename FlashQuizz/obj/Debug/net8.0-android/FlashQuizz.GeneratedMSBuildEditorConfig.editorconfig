@@ -16,6 +16,12 @@ build_property.ProjectDir = C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-Sam
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/AddFlashcardForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.AddFlashcardForm.xaml
+build_metadata.AdditionalFiles.TargetPath = AddFlashcardForm.xaml
+build_metadata.AdditionalFiles.RelativePath = AddFlashcardForm.xaml
+
 [C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.App.xaml

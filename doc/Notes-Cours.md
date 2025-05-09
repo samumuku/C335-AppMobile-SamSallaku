@@ -202,3 +202,12 @@ On peut choisir et il va normalement régler la taille par lui même
 
 - Revue des exercices MVVM puis CRUD
 - Discussion et compréhension en groupe
+
+# 09.05.2025
+
+## Questions
+
+- Que veut dire MVVM ? (Model View ViewModel => manière de coder. Model: occupe la DB et récupérer les données, View: Partie visuelle ou bien Frontend. ViewModel: lien entre le backend et frontend )
+- A quoi sert la notation [RelayCommand] ET d'où cela vient ? (Elle sert à relier une méthode avec le View, comme le ObservableProperty relie les variables )
+- Comment faire en sorte qu'un label affiche dynamiquement la valeur d'un attribut int (en utilisant un Binding dans la propriete Text, et dans le ViewModel en utilisant ObservableProperty)
+- Citer une alternative à MVVM ? (Code Behind, React, Blazer)

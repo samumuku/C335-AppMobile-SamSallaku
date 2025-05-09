@@ -1,13 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FlashQuizz.MainPage">
+             x:Class="FlashQuizz.MainPage"
+             BackgroundColor="CadetBlue"
+             Title="Home">
 
+    <NavigationPage.TitleView>
+        <Grid>
+            <Image Source="logo2_chatgpt.webp"
+                   WidthRequest="80"
+                   HeightRequest="80"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+        </Grid>
+    </NavigationPage.TitleView>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="＋"
+                     Order="Primary"
+                     Priority="0"
+                     Clicked="OnAddButtonClicked" />
+    </ContentPage.ToolbarItems>
+    
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="25">
-            
+            Spacing="25"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
 
         </VerticalStackLayout>
     </ScrollView>
