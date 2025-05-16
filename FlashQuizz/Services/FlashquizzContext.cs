@@ -11,6 +11,7 @@ namespace FlashQuizz.Services
     class FlashquizzContext : DbContext
     {
         public DbSet<Deck> Decks { get; set; }
+        public DbSet<Flashcard> Flashcards { get; set; }
 
         public FlashquizzContext()
         {

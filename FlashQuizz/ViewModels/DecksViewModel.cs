@@ -29,9 +29,12 @@ namespace FlashQuizz.ViewModels
         [RelayCommand]
         public async Task NavigateToDeck(Deck deck)
         {
-            // Navigate to Deck Page (e.g., to add flashcards)
-            await Shell.Current.GoToAsync($"deck/{deck.Id}");
+            if (deck == null)
+                return;
+
+            await Application.Current.MainPage.Navigation.PushAsync(new DeckPage(deck));
         }
+
 
         // Delete Deck Command (unchanged)
         [RelayCommand]

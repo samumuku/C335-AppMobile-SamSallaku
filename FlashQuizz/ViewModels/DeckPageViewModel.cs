@@ -42,8 +42,15 @@ namespace FlashQuizz.ViewModels
             };
 
             using var db = new FlashquizzContext();
-            db.Add(flashcard);
-            await db.SaveChangesAsync();
+            try
+            {
+                db.Add(flashcard);
+                await db.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("Database Error", ex.InnerException?.Message ?? ex.Message, "OK");
+            }
 
             // Clear inputs after adding the flashcard
             Question = "";

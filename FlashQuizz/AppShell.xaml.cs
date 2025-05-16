@@ -6,6 +6,8 @@
         {
             InitializeComponent();
             Routing.RegisterRoute("AddFlashcardForm", typeof(AddFlashcardForm));
+            Routing.RegisterRoute("DeckPage", typeof(DeckPage));
+
         }
     }
 }

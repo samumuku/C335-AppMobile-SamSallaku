@@ -65,7 +65,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="AddFlashcardForm.xaml">
+	  <Compile Update="AddDeckForm.xaml.cs">
+	    <DependentUpon>AddDeckForm.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="AddDeckForm.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="DeckPage.xaml">

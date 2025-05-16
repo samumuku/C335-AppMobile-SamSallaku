@@ -184,13 +184,6 @@ On peut choisir et il va normalement régler la taille par lui même
 <Button Text="Counter : 0 [click to inc 5]" />
 ```
 
-## Questions
-
--
--
--
--
-
 # 11.04.2025
 
 - Revue de ce qu'on a fait la semaine passée
@@ -211,3 +204,26 @@ On peut choisir et il va normalement régler la taille par lui même
 - A quoi sert la notation [RelayCommand] ET d'où cela vient ? (Elle sert à relier une méthode avec le View, comme le ObservableProperty relie les variables )
 - Comment faire en sorte qu'un label affiche dynamiquement la valeur d'un attribut int (en utilisant un Binding dans la propriete Text, et dans le ViewModel en utilisant ObservableProperty)
 - Citer une alternative à MVVM ? (Code Behind, React, Blazer)
+
+# 16.05.2025
+
+- Introduction aux animations avec un exercice, lien : https://labs.section-inf.ch/codelabs/mobile-06-animation/index.html?index=..%2F..index#0
+
+### Exercice Animations
+
+- Invoke pour invoquer une Action, ce qui ce crée juste avant l'invocation
+- Liaison (instantiacion) du ViewModel dans le .xaml
+
+### MAUI Sensors
+
+- Possibilité de simuler l'accéleration sur l'émulateur
+- On peut s'abonner, activer puis ensuite désabonner car si on se désabonne pas cela pourrait être coûteux en termes de hardware téléphone et énergie(surtout batterie)
+- Précision ( SensorSpeed = Default = 200ms, UI = 60ms, Game = 20ms, Fastest = 5ms). Plus l'intervale est basse le plus coûteux c'est.
+- ReadingChanged => ShakeDetected elle sera appellée lors d'un shake du téléphone
+
+## Questions
+
+- Comment faire pour que le contenu d'une liste soit sauvegardé après le démararage de l'application (associer les données à un système de gestion de données comme une DB, Sqlite)
+- A quelle frequence les données de l'accéléromètre sont transmisses à l'application ? (ca dépend de ce qu'on mets, cela peut être soit Default=200, soit UI=60, Game=20 ou bien Fastest=5)
+- L'accéléromètre permet de détecter les mouvements sur quels axes? (X.Y.Z)
+- En quoi les capteurs peuvent impacter particulièrement négativement le téléphone ? (L'utilisation des ressources, et surtout la batterie)

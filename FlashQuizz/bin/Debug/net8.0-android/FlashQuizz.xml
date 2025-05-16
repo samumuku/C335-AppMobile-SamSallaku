@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlashQuizz</name>
+    </assembly>
+    <members>
+        <member name="T:FlashQuizz.ViewModels.DeckCRUDViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckCRUDViewModel.DeckName">
+            <inheritdoc cref="F:FlashQuizz.ViewModels.DeckCRUDViewModel.deckName"/>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckCRUDViewModel.Description">
+            <inheritdoc cref="F:FlashQuizz.ViewModels.DeckCRUDViewModel.description"/>
+        </member>
+        <member name="M:FlashQuizz.ViewModels.DeckCRUDViewModel.OnDeckNameChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:FlashQuizz.ViewModels.DeckCRUDViewModel.DeckName"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:FlashQuizz.ViewModels.DeckCRUDViewModel.DeckName"/> is changed.</remarks>
+        </member>
+        <member name="M:FlashQuizz.ViewModels.DeckCRUDViewModel.OnDescriptionChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:FlashQuizz.ViewModels.DeckCRUDViewModel.Description"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:FlashQuizz.ViewModels.DeckCRUDViewModel.Description"/> is changed.</remarks>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DeckCRUDViewModel.addDeckCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckCRUDViewModel.AddDeckCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckCRUDViewModel.AddDeckCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckCRUDViewModel.AddDeck(System.String)"/>.</summary>
+        </member>
+        <member name="T:FlashQuizz.ViewModels.DeckPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.Question">
+            <inheritdoc cref="F:FlashQuizz.ViewModels.DeckPageViewModel.question"/>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.Answer">
+            <inheritdoc cref="F:FlashQuizz.ViewModels.DeckPageViewModel.answer"/>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DeckPageViewModel.addFlashcardCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckPageViewModel.AddFlashcardCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.AddFlashcardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckPageViewModel.AddFlashcard"/>.</summary>
+        </member>
+        <member name="T:FlashQuizz.ViewModels.DecksViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DecksViewModel.loadDecksCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DecksViewModel.LoadDecksCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DecksViewModel.LoadDecksCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DecksViewModel.LoadDecks"/>.</summary>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DecksViewModel.navigateToDeckCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DecksViewModel.NavigateToDeckCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DecksViewModel.NavigateToDeckCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DecksViewModel.NavigateToDeck(FlashQuizz.Models.Deck)"/>.</summary>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DecksViewModel.deleteDeckCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DecksViewModel.DeleteDeckCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DecksViewModel.DeleteDeckCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DecksViewModel.DeleteDeck(FlashQuizz.Models.Deck)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DeckName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DeckName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Question">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Question" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Answer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Answer" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DeckName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DeckName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Question">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Question" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Answer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Answer" generated properties.</summary>
+        </member>
+    </members>
+</doc>
