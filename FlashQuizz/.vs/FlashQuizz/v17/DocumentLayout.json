@@ -3,56 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:models\\flashcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\viewmodels\\deckpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:viewmodels\\deckpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\services\\flashquizzcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:services\\flashquizzcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\adddeckform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:adddeckform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\deckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:deckpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\deckpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:deckpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\adddeckform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:adddeckform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\viewmodels\\deckcrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:viewmodels\\deckcrudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\viewmodels\\decksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:viewmodels\\decksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|c:\\users\\pr13xpj\\documents\\github\\c335-appmobile-samsallaku\\flashquizz\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E654B2-E837-4464-A937-2AB5CBF60ED2}|FlashQuizz.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\Models\\Deck.cs",
-              "RelativeDocumentMoniker": "Models\\Deck.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\Models\\Deck.cs",
-              "RelativeToolTip": "Models\\Deck.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAApwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T10:03:16.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Flashcard.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\Models\\Flashcard.cs",
-              "RelativeDocumentMoniker": "Models\\Flashcard.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\Models\\Flashcard.cs",
-              "RelativeToolTip": "Models\\Flashcard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T10:01:31.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "FlashquizzContext.cs",
               "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\Services\\FlashquizzContext.cs",
               "RelativeDocumentMoniker": "Services\\FlashquizzContext.cs",
               "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\Services\\FlashquizzContext.cs",
               "RelativeToolTip": "Services\\FlashquizzContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T09:58:22.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T09:53:16.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddDeckForm.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\AddDeckForm.xaml.cs",
-              "RelativeDocumentMoniker": "AddDeckForm.xaml.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\AddDeckForm.xaml.cs",
-              "RelativeToolTip": "AddDeckForm.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T09:53:10.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\MainPage.xaml",
-              "RelativeDocumentMoniker": "MainPage.xaml",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\MainPage.xaml",
-              "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAABvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T09:51:43.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:43:38.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DeckPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\DeckPage.xaml.cs",
-              "RelativeDocumentMoniker": "DeckPage.xaml.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\DeckPage.xaml.cs",
-              "RelativeToolTip": "DeckPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:36:39.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DeckCRUDViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\ViewModels\\DeckCRUDViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DeckCRUDViewModel.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\ViewModels\\DeckCRUDViewModel.cs",
-              "RelativeToolTip": "ViewModels\\DeckCRUDViewModel.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwDQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:31:04.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DecksViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\ViewModels\\DecksViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DecksViewModel.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\ViewModels\\DecksViewModel.cs",
-              "RelativeToolTip": "ViewModels\\DecksViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAQwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T08:30:45.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddDeckForm.xaml",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\AddDeckForm.xaml",
-              "RelativeDocumentMoniker": "AddDeckForm.xaml",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\AddDeckForm.xaml",
-              "RelativeToolTip": "AddDeckForm.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T08:27:42.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeckPage.xaml",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\DeckPage.xaml",
-              "RelativeDocumentMoniker": "DeckPage.xaml",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\DeckPage.xaml",
-              "RelativeToolTip": "DeckPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-16T08:27:05.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeckPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\ViewModels\\DeckPageViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DeckPageViewModel.cs",
-              "ToolTip": "C:\\Users\\pr13xpj\\Documents\\GitHub\\C335-AppMobile-SamSallaku\\FlashQuizz\\ViewModels\\DeckPageViewModel.cs",
-              "RelativeToolTip": "ViewModels\\DeckPageViewModel.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAswDwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T10:06:22.352Z",
+              "WhenOpened": "2025-05-23T09:22:15.576Z",
               "EditorCaption": ""
             }
           ]

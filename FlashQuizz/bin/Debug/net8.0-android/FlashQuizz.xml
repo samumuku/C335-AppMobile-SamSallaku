@@ -33,20 +33,43 @@
         <member name="T:FlashQuizz.ViewModels.DeckPageViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
-        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.Question">
-            <inheritdoc cref="F:FlashQuizz.ViewModels.DeckPageViewModel.question"/>
+        <member name="F:FlashQuizz.ViewModels.DeckPageViewModel.editDeckCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckPageViewModel.EditDeckCommand"/>.</summary>
         </member>
-        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.Answer">
-            <inheritdoc cref="F:FlashQuizz.ViewModels.DeckPageViewModel.answer"/>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.EditDeckCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckPageViewModel.EditDeck"/>.</summary>
         </member>
-        <member name="F:FlashQuizz.ViewModels.DeckPageViewModel.addFlashcardCommand">
-            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckPageViewModel.AddFlashcardCommand"/>.</summary>
+        <member name="F:FlashQuizz.ViewModels.DeckPageViewModel.deleteDeckCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckPageViewModel.DeleteDeckCommand"/>.</summary>
         </member>
-        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.AddFlashcardCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckPageViewModel.AddFlashcard"/>.</summary>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.DeleteDeckCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckPageViewModel.DeleteDeck"/>.</summary>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DeckPageViewModel.startExerciseCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckPageViewModel.StartExerciseCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.StartExerciseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckPageViewModel.StartExercise"/>.</summary>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DeckPageViewModel.deleteFlashcardCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckPageViewModel.DeleteFlashcardCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.DeleteFlashcardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckPageViewModel.DeleteFlashcard(FlashQuizz.Models.Flashcard)"/>.</summary>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DeckPageViewModel.editFlashcardCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DeckPageViewModel.EditFlashcardCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DeckPageViewModel.EditFlashcardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DeckPageViewModel.EditFlashcard(FlashQuizz.Models.Flashcard)"/>.</summary>
         </member>
         <member name="T:FlashQuizz.ViewModels.DecksViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
@@ -63,11 +86,39 @@
         <member name="P:FlashQuizz.ViewModels.DecksViewModel.NavigateToDeckCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DecksViewModel.NavigateToDeck(FlashQuizz.Models.Deck)"/>.</summary>
         </member>
+        <member name="F:FlashQuizz.ViewModels.DecksViewModel.openDeckCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DecksViewModel.OpenDeckCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DecksViewModel.OpenDeckCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DecksViewModel.OpenDeck(FlashQuizz.Models.Deck)"/>.</summary>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.DecksViewModel.editDeckCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DecksViewModel.EditDeckCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.DecksViewModel.EditDeckCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DecksViewModel.EditDeck(FlashQuizz.Models.Deck)"/>.</summary>
+        </member>
         <member name="F:FlashQuizz.ViewModels.DecksViewModel.deleteDeckCommand">
             <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.DecksViewModel.DeleteDeckCommand"/>.</summary>
         </member>
         <member name="P:FlashQuizz.ViewModels.DecksViewModel.DeleteDeckCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.DecksViewModel.DeleteDeck(FlashQuizz.Models.Deck)"/>.</summary>
+        </member>
+        <member name="T:FlashQuizz.ViewModels.FlashcardViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.FlashcardViewModel.Question">
+            <inheritdoc cref="F:FlashQuizz.ViewModels.FlashcardViewModel.question"/>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.FlashcardViewModel.Answer">
+            <inheritdoc cref="F:FlashQuizz.ViewModels.FlashcardViewModel.answer"/>
+        </member>
+        <member name="F:FlashQuizz.ViewModels.FlashcardViewModel.addFlashcardCommand">
+            <summary>The backing field for <see cref="P:FlashQuizz.ViewModels.FlashcardViewModel.AddFlashcardCommand"/>.</summary>
+        </member>
+        <member name="P:FlashQuizz.ViewModels.FlashcardViewModel.AddFlashcardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FlashQuizz.ViewModels.FlashcardViewModel.AddFlashcard"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>

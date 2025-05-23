@@ -12,12 +12,6 @@ build_property.ProjectDir = C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-Sam
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/AddDeckForm.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.AddDeckForm.xaml
-build_metadata.AdditionalFiles.TargetPath = AddDeckForm.xaml
-build_metadata.AdditionalFiles.RelativePath = AddDeckForm.xaml
-
 [C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.App.xaml
@@ -30,11 +24,35 @@ build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/DeckPage.xaml]
+[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/DeckDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.DeckPage.xaml
-build_metadata.AdditionalFiles.TargetPath = DeckPage.xaml
-build_metadata.AdditionalFiles.RelativePath = DeckPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.DeckDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DeckDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DeckDetailPage.xaml
+
+[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/DeckForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.DeckForm.xaml
+build_metadata.AdditionalFiles.TargetPath = DeckForm.xaml
+build_metadata.AdditionalFiles.RelativePath = DeckForm.xaml
+
+[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/ExercicePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.ExercicePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ExercicePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ExercicePage.xaml
+
+[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/ExerciceResultsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.ExerciceResultsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ExerciceResultsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ExerciceResultsPage.xaml
+
+[C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/FlashcardForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlashQuizz.FlashcardForm.xaml
+build_metadata.AdditionalFiles.TargetPath = FlashcardForm.xaml
+build_metadata.AdditionalFiles.RelativePath = FlashcardForm.xaml
 
 [C:/Users/pr13xpj/Documents/GitHub/C335-AppMobile-SamSallaku/FlashQuizz/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

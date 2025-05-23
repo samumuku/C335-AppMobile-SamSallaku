@@ -2,10 +2,9 @@
 using CommunityToolkit.Mvvm.Input;
 using FlashQuizz.Models;
 using FlashQuizz.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using FlashQuizz.Views;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
 namespace FlashQuizz.ViewModels
@@ -17,44 +16,89 @@ namespace FlashQuizz.ViewModels
         public DeckPageViewModel(Deck deck)
         {
             _deck = deck;
+            Flashcards = new ObservableCollection<Flashcard>(_deck.Flashcards ?? new List<Flashcard>());
         }
 
-        [ObservableProperty]
-        private string question;
+        public string DeckName => _deck.Name;
 
-        [ObservableProperty]
-        private string answer;
+        public ObservableCollection<Flashcard> Flashcards { get; set; }
 
         [RelayCommand]
-        public async Task AddFlashcard()
+        private async Task EditDeck()
         {
-            if (string.IsNullOrWhiteSpace(Question) || string.IsNullOrWhiteSpace(Answer))
-            {
-                await App.Current.MainPage.DisplayAlert("Validation", "Both question and answer are required", "OK");
-                return;
-            }
+            await App.Current.MainPage.DisplayAlert("Edit", "Edit Deck clicked", "OK");
+        }
 
-            var flashcard = new Flashcard
-            {
-                Question = Question,
-                Answer = Answer,
-                DeckId = _deck.Id
-            };
+        [RelayCommand]
+        private async Task DeleteDeck()
+        {
+            bool confirm = await App.Current.MainPage.DisplayAlert("Confirm", "Delete this deck?", "Yes", "No");
+            if (!confirm) return;
 
             using var db = new FlashquizzContext();
-            try
-            {
-                db.Add(flashcard);
-                await db.SaveChangesAsync();
-            }
-            catch (Exception ex)
-            {
-                await App.Current.MainPage.DisplayAlert("Database Error", ex.InnerException?.Message ?? ex.Message, "OK");
-            }
+            db.Decks.Remove(_deck);
+            await db.SaveChangesAsync();
 
-            // Clear inputs after adding the flashcard
-            Question = "";
-            Answer = "";
+            await App.Current.MainPage.Navigation.PopAsync();
         }
+
+        public async Task ReloadFlashcardsAsync()
+        {
+            using var db = new FlashquizzContext();
+            var freshDeck = await db.Decks
+                .Include(d => d.Flashcards)
+                .FirstOrDefaultAsync(d => d.Id == _deck.Id);
+
+            if (freshDeck != null)
+            {
+                Flashcards.Clear();
+                foreach (var flashcard in freshDeck.Flashcards)
+                {
+                    Flashcards.Add(flashcard);
+                }
+            }
+        }
+
+        [RelayCommand]
+        private async Task StartExercise()
+        {
+            await App.Current.MainPage.Navigation.PushAsync(new ExercisePage(Flashcards.ToList()));
+        }
+
+        [RelayCommand]
+        private async Task DeleteFlashcard(Flashcard flashcard)
+        {
+            bool confirm = await App.Current.MainPage.DisplayAlert("Confirm", $"Delete flashcard '{flashcard.Question}'?", "Yes", "No");
+            if (!confirm) return;
+
+            using var db = new FlashquizzContext();
+            db.Flashcards.Remove(flashcard);
+            await db.SaveChangesAsync();
+
+            Flashcards.Remove(flashcard);
+        }
+
+        [RelayCommand]
+        private async Task EditFlashcard(Flashcard flashcard)
+        {
+            string newQuestion = await App.Current.MainPage.DisplayPromptAsync("Edit Question", "Update question:", initialValue: flashcard.Question);
+            if (newQuestion == null) return;
+
+            string newAnswer = await App.Current.MainPage.DisplayPromptAsync("Edit Answer", "Update answer:", initialValue: flashcard.Answer);
+            if (newAnswer == null) return;
+
+            flashcard.Question = newQuestion;
+            flashcard.Answer = newAnswer;
+
+            using var db = new FlashquizzContext();
+            db.Flashcards.Update(flashcard);
+            await db.SaveChangesAsync();
+
+            // Refresh UI
+            int index = Flashcards.IndexOf(flashcard);
+            Flashcards.RemoveAt(index);
+            Flashcards.Insert(index, flashcard);
+        }
+
     }
 }

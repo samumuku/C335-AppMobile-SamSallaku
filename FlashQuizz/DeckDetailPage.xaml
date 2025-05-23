@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:FlashQuizz.ViewModels"
+             BackgroundColor="CadetBlue"
+             x:Class="FlashQuizz.Views.DeckDetailPage">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="{Binding DeckName}" FontSize="24" FontAttributes="Bold" />
+
+        <Button Text="Start Exercise" Command="{Binding StartExerciseCommand}" BackgroundColor="DarkSlateBlue" HeightRequest="40" FontSize="14" />
+
+        <Button Text="Add Flashcard"
+                Clicked="OnAddFlashcardClicked"
+                BackgroundColor="Green"
+                TextColor="White"
+                HeightRequest="40"
+                FontSize="14" />
+
+        <Label Text="Flashcards:" FontAttributes="Bold" FontSize="18" />
+
+        <CollectionView ItemsSource="{Binding Flashcards}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="Gray" Margin="5">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Question}" FontAttributes="Bold" />
+                            <Label Text="{Binding Answer}" FontAttributes="Italic" />
+
+                            <HorizontalStackLayout Spacing="10" HorizontalOptions="End">
+                                <Button Text="Edit" Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:DeckPageViewModel}}, Path=EditFlashcardCommand}" CommandParameter="{Binding}" FontSize="12" HeightRequest="40" WidthRequest="80" BackgroundColor="DarkOrange" />
+                                <Button Text="Delete" Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:DeckPageViewModel}}, Path=DeleteFlashcardCommand}" CommandParameter="{Binding}" FontSize="12" HeightRequest="40" WidthRequest="80" BackgroundColor="DarkRed" />
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

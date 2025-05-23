@@ -1,4 +1,6 @@
 ﻿using FlashQuizz.ViewModels;
+using FlashQuizz.Models;
+using FlashQuizz.Views;
 
 namespace FlashQuizz
 {
@@ -18,8 +20,17 @@ namespace FlashQuizz
         }
         private async void OnAddButtonClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("AddFlashcardForm");
+            await Shell.Current.GoToAsync("DeckForm");
         }
+        private async void OnDeckSelected(object sender, SelectionChangedEventArgs e)
+        {
+            if (e.CurrentSelection.FirstOrDefault() is Deck selectedDeck)
+            {
+                ((CollectionView)sender).SelectedItem = null; // Optional: deselect after tap
+                await Navigation.PushAsync(new DeckDetailPage(selectedDeck));
+            }
+        }
+
 
     }
 

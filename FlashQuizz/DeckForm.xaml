@@ -2,12 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FlashQuizz.ViewModels"
-             x:Class="FlashQuizz.AddFlashcardForm"
+             x:Class="FlashQuizz.DeckForm"
              BackgroundColor="CadetBlue">
-
-    <ContentPage.BindingContext>
-        <local:DeckCRUDViewModel />
-    </ContentPage.BindingContext>
 
     <ScrollView>
         <VerticalStackLayout

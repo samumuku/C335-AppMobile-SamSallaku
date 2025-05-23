@@ -13,6 +13,7 @@ namespace FlashQuizz.Models
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public List<Flashcard> Flashcards { get; set; }
+        public List<Flashcard> Flashcards { get; set; } = new List<Flashcard>();
+
     }
 }

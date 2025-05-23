@@ -273,7 +273,6 @@ C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\bin\Debug
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet-nativeaot.a
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\bin\Debug\net8.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs

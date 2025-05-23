@@ -6,6 +6,7 @@ using Microsoft.Maui.Storage;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using FlashQuizz.Views;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,9 +33,40 @@ namespace FlashQuizz.ViewModels
             if (deck == null)
                 return;
 
-            await Application.Current.MainPage.Navigation.PushAsync(new DeckPage(deck));
+            await Application.Current.MainPage.Navigation.PushAsync(new DeckForm());
         }
 
+        [RelayCommand]
+        private async Task OpenDeck(Deck deck)
+        {
+            if (deck == null) return;
+            await Shell.Current.Navigation.PushAsync(new DeckDetailPage(deck));
+        }
+
+        [RelayCommand]
+        private async Task EditDeck(Deck deck)
+        {
+            string newName = await App.Current.MainPage.DisplayPromptAsync("Edit Deck", "New name:", initialValue: deck.Name);
+            if (newName == null) return;
+
+            string newDesc = await App.Current.MainPage.DisplayPromptAsync("Edit Deck", "New description:", initialValue: deck.Description);
+            if (newDesc == null) return;
+
+            using var db = new FlashquizzContext();
+            var dbDeck = await db.Decks.FindAsync(deck.Id);
+            if (dbDeck != null)
+            {
+                dbDeck.Name = newName;
+                dbDeck.Description = newDesc;
+                await db.SaveChangesAsync();
+
+                // Update UI
+                deck.Name = newName;
+                deck.Description = newDesc;
+                OnPropertyChanged(nameof(Decks));
+                await LoadDecks();
+            }
+        }
 
         // Delete Deck Command (unchanged)
         [RelayCommand]

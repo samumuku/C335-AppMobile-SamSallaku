@@ -7,10 +7,19 @@
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="AddDeckForm.xaml">
+    <MauiXaml Update="DeckForm.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="DeckPage.xaml">
+    <MauiXaml Update="DeckDetailPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ExercicePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ExerciceResultsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="FlashcardForm.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

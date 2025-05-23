@@ -1,0 +1,17 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlashQuizz.Views.ExerciseResultsPage"
+             BackgroundColor="CadetBlue"
+             Title="Results">
+
+    <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Exercise Results" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" />
+
+        <Label Text="{Binding TimeTakenString}" FontSize="18" />
+        <Label Text="{Binding HardestCard}" FontSize="18" />
+        <Label Text="{Binding CorrectCards}" FontSize="18" />
+        <Label Text="{Binding SuccessRate}" FontSize="18" />
+
+        <Button Text="Back to Decks" Clicked="OnBackClicked" BackgroundColor="Green" TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>

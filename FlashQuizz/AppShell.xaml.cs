@@ -5,8 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute("AddFlashcardForm", typeof(AddFlashcardForm));
-            Routing.RegisterRoute("DeckPage", typeof(DeckPage));
+            Routing.RegisterRoute("FlashcardForm", typeof(FlashcardForm));
+            Routing.RegisterRoute("DeckForm", typeof(DeckForm));
 
         }
     }
