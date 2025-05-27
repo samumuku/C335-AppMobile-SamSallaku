@@ -1,7 +1,7 @@
-; ModuleID = 'marshal_methods.arm64-v8a.ll'
-source_filename = "marshal_methods.arm64-v8a.ll"
-target datalayout = "e-m:e-i8:8:32-i16:16:32-i64:64-i128:128-n32:64-S128"
-target triple = "aarch64-unknown-linux-android21"
+; ModuleID = 'marshal_methods.x86_64.ll'
+source_filename = "marshal_methods.x86_64.ll"
+target datalayout = "e-m:e-p270:32:32-p271:32:32-p272:64:64-i64:64-f80:128-n8:16:32:64-S128"
+target triple = "x86_64-unknown-linux-android21"
 
 %struct.MarshalMethodName = type {
 	i64, ; uint64_t id
@@ -13,7 +13,7 @@ target triple = "aarch64-unknown-linux-android21"
 	ptr ; MonoClass klass
 }
 
-@assembly_image_cache = dso_local local_unnamed_addr global [321 x ptr] zeroinitializer, align 8
+@assembly_image_cache = dso_local local_unnamed_addr global [321 x ptr] zeroinitializer, align 16
 
 ; Each entry maps hash of an assembly name to an index into the `assembly_image_cache` array
 @assembly_image_cache_hashes = dso_local local_unnamed_addr constant [642 x i64] [
@@ -659,7 +659,7 @@ target triple = "aarch64-unknown-linux-android21"
 	i64 18370042311372477656, ; 639: SQLitePCLRaw.lib.e_sqlite3.android.dll => 0xfeef80274e4094d8 => 197
 	i64 18380184030268848184, ; 640: Xamarin.AndroidX.VersionedParcelable => 0xff1387fe3e7b7838 => 269
 	i64 18439108438687598470 ; 641: System.Reflection.Metadata.dll => 0xffe4df6e2ee1c786 => 93
-], align 8
+], align 16
 
 @assembly_image_cache_indices = dso_local local_unnamed_addr constant [642 x i32] [
 	i32 231, ; 0
@@ -1304,7 +1304,7 @@ target triple = "aarch64-unknown-linux-android21"
 	i32 197, ; 639
 	i32 269, ; 640
 	i32 93 ; 641
-], align 4
+], align 16
 
 @marshal_methods_number_of_classes = dso_local local_unnamed_addr constant i32 0, align 4
 
@@ -1342,7 +1342,7 @@ define void @xamarin_app_init(ptr nocapture noundef readnone %env, ptr noundef %
 }
 
 ; Strings
-@.str.0 = private unnamed_addr constant [40 x i8] c"get_function_pointer MUST be specified\0A\00", align 1
+@.str.0 = private unnamed_addr constant [40 x i8] c"get_function_pointer MUST be specified\0A\00", align 16
 
 ;MarshalMethodName
 @.MarshalMethodName.0_name = private unnamed_addr constant [1 x i8] c"\00", align 1
@@ -1354,12 +1354,12 @@ declare void @abort() local_unnamed_addr #2
 
 ; Function attributes: nofree nounwind
 declare noundef i32 @puts(ptr noundef) local_unnamed_addr #1
-attributes #0 = { "min-legal-vector-width"="0" mustprogress nofree norecurse nosync "no-trapping-math"="true" nounwind "stack-protector-buffer-size"="8" "target-cpu"="generic" "target-features"="+fix-cortex-a53-835769,+neon,+outline-atomics,+v8a" uwtable willreturn }
+attributes #0 = { "min-legal-vector-width"="0" mustprogress nofree norecurse nosync "no-trapping-math"="true" nounwind "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+crc32,+cx16,+cx8,+fxsr,+mmx,+popcnt,+sse,+sse2,+sse3,+sse4.1,+sse4.2,+ssse3,+x87" "tune-cpu"="generic" uwtable willreturn }
 attributes #1 = { nofree nounwind }
-attributes #2 = { noreturn "no-trapping-math"="true" nounwind "stack-protector-buffer-size"="8" "target-cpu"="generic" "target-features"="+fix-cortex-a53-835769,+neon,+outline-atomics,+v8a" }
+attributes #2 = { noreturn "no-trapping-math"="true" nounwind "stack-protector-buffer-size"="8" "target-cpu"="x86-64" "target-features"="+crc32,+cx16,+cx8,+fxsr,+mmx,+popcnt,+sse,+sse2,+sse3,+sse4.1,+sse4.2,+ssse3,+x87" "tune-cpu"="generic" }
 
 ; Metadata
-!llvm.module.flags = !{!0, !1, !7, !8, !9, !10}
+!llvm.module.flags = !{!0, !1}
 !0 = !{i32 1, !"wchar_size", i32 4}
 !1 = !{i32 7, !"PIC Level", i32 2}
 !llvm.ident = !{!2}
@@ -1368,7 +1368,3 @@ attributes #2 = { noreturn "no-trapping-math"="true" nounwind "stack-protector-b
 !4 = !{!"any pointer", !5, i64 0}
 !5 = !{!"omnipotent char", !6, i64 0}
 !6 = !{!"Simple C++ TBAA"}
-!7 = !{i32 1, !"branch-target-enforcement", i32 0}
-!8 = !{i32 1, !"sign-return-address", i32 0}
-!9 = !{i32 1, !"sign-return-address-all", i32 0}
-!10 = !{i32 1, !"sign-return-address-with-bkey", i32 0}

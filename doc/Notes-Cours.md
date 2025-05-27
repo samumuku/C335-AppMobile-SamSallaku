@@ -227,3 +227,9 @@ On peut choisir et il va normalement régler la taille par lui même
 - A quelle frequence les données de l'accéléromètre sont transmisses à l'application ? (ca dépend de ce qu'on mets, cela peut être soit Default=200, soit UI=60, Game=20 ou bien Fastest=5)
 - L'accéléromètre permet de détecter les mouvements sur quels axes? (X.Y.Z)
 - En quoi les capteurs peuvent impacter particulièrement négativement le téléphone ? (L'utilisation des ressources, et surtout la batterie)
+
+# 23.05.2025
+
+- Questions individuelles
+- Continuer sur le projet et retouches sur les maquettes
+- Dernière séquence

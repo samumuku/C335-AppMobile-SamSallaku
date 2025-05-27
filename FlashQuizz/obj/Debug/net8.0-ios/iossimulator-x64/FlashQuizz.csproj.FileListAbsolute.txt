@@ -282,8 +282,8 @@ C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
-C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\logo2_chatgpt.webp
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\upload.png
+C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\logo2_chatgpt.webp
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\pr13xpj\Documents\GitHub\C335-AppMobile-SamSallaku\FlashQuizz\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
